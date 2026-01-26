@@ -37,7 +37,7 @@ CONFIGS = {
         'T_low': 8.0,
         'T_high': 25.0,
         # Aggregation
-        'aggregation_type': 'min_depth',  # or 'mask_aware'  ✅ FIXED COMMENT
+        'aggregation_type':'mask_aware',  # or 'min_depth'  ✅ FIXED COMMENT
         'min_participation_ratio': 0.5,  # For mask-aware aggregation
     },
     
@@ -61,7 +61,7 @@ CONFIGS = {
         'T_low': 12.0,
         'T_high': 35.0,
         # Aggregation
-        'aggregation_type': 'min_depth',  # or 'mask_aware'
+        'aggregation_type': 'mask_aware',  # or 'min_depth'
         'min_participation_ratio': 0.5,
     },
     
@@ -85,7 +85,7 @@ CONFIGS = {
         'T_low': 20.0,
         'T_high': 60.0,
         # Aggregation
-        'aggregation_type': 'min_depth',  # or 'mask_aware'
+        'aggregation_type': 'mask_aware',  # or 'min_depth'
         'min_participation_ratio': 0.5,
     },
 }
